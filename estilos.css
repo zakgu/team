@@ -1,0 +1,41 @@
+body{
+	background-color: #f2f2f2;
+	padding: 0;
+	margin: 0;
+	font-family: Open Sans;
+}
+
+/*Esto guarda a los integrantes*/
+.contenedor{
+	width: 100%;
+	height: 50%;
+	margin-bottom: 5%;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/* Estilos para los integrantes*/
+.integrante{
+	width: 28%;
+	margin: 3% 2%;
+	max-height: 10%;
+}
+
+.integrante img{
+	width: 100%;
+	border-radius: 360px;
+}
+
+
+.integrante p{
+	background: #fff;
+	color: black;
+}
+.integrante a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 30px;
+}
